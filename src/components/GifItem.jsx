@@ -4,11 +4,10 @@ export const GifItem = ({ title, url, id }) => {
     return (
     // Creamos un div con la clase card
     <div className="card">
-    {/* // Mostramos una imagen con src establecido a url y alt establecido a title
-   */}
-    <img src={ url } alt={ title } />
-    {/* // Mostramos el título de la imagen */}
-    <p>{ title }</p>
+      {/* // Mostramos una imagen con src establecido a url y alt establecido a title */}
+      <img src={ url } alt={ title } />
+      {/* // Mostramos el título de la imagen */}
+      <p>{ title }</p>
     </div>
-    )
-   }
+  )
+  }
